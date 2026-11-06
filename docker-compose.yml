@@ -1,0 +1,8 @@
+
+services:
+  hospital-app:
+    build: .
+    container_name: hospital_booking
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
